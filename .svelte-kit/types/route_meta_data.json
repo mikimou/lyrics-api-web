@@ -1,5 +1,8 @@
 {
 	"/": [
 		"src/routes/+page.js"
+	],
+	"/api": [
+		"src/routes/api/+page.js"
 	]
 }

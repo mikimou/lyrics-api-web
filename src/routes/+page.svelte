@@ -4,8 +4,7 @@
 	import { redirect } from '@sveltejs/kit';
 
 	async function redirectt() {
-		window.location.assign("https://obsah.sietovevzdelanie.eu/");
-		// window.location.assign("https://obsah.sietovevzdelanie.eu/");
+		window.location.assign("/api");
 	}
 </script>
 
