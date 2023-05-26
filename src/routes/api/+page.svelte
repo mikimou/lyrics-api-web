@@ -15,7 +15,10 @@
 
 
 <div style="align-items: center;">
-	<center><iframe src="http://api.michalhicz.eu/webhook/lyrics" height="800" width="1000"></iframe></center>
+	<center>
+		<iframe src="https://api.michalhicz.eu/webhook/lyrics" height="800" width="1000"></iframe>
+		<!--<object data="https://api.michalhicz.eu/webhook/lyrics/" width="1000" height="800" type="text/html">Alternative Content</object>-->
+	</center>
 </div>
 
 <style>
