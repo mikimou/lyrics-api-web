@@ -1,0 +1,1 @@
+# Web stránka sietovevzdelanie.eu
