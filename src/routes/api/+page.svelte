@@ -16,6 +16,7 @@
 
 <div style="align-items: center;">
 	<center>
+		<p class='drac-text'>Nechaj načítať 30s..</p>
 		<iframe src="https://api.michalhicz.eu/webhook/lyrics" height="800" width="1000"></iframe>
 		<!--<object data="https://api.michalhicz.eu/webhook/lyrics/" width="1000" height="800" type="text/html">Alternative Content</object>-->
 	</center>
