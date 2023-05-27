@@ -1,6 +1,7 @@
 <script>
 	import { page } from '$app/stores';
 	import github from '$lib/images/github.svg';
+	import { invalidateAll } from '$app/navigation';
 
 	async function redirect() {
 		window.location.assign("/");
@@ -8,6 +9,11 @@
 
 	export let data;
 	$: item = data.lyrics;
+
+	function invalidate() {
+	invalidateAll();
+	}
+
 </script>
 
 <svelte:head>
@@ -19,7 +25,7 @@
 	<center>
 		<!--<p class='drac-text'>Nechaj načítať 30s..</p>
 		<iframe src="https://api.michalhicz.eu/webhook/lyrics"></iframe>-->
-		<br><br><button on:click={regen} class="drac-btn drac-bg-pink-purple drac-m-sm drac-btn-lg">Reset</button>
+		<br><br><button on:click={invalidate} class="drac-btn drac-bg-pink-purple drac-m-sm drac-btn-lg">Reset</button>
 		<center><div style="margin: 6em; word-wrap: break-word; width: 40em;" class="dv">
 			<h1 style="font-size: 2em;" class="drac-text drac-text-center drac-text-lg drac-text-pink-purple" >{item}</h1>
 	  </div></center>
