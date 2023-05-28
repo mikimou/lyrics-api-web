@@ -43,8 +43,7 @@
 
 	.dv {
 		margin: 6em;
-		word-wrap:
-		break-word;
+		word-wrap: break-word;
 		width: 40em;
 	}
 	h1 {
