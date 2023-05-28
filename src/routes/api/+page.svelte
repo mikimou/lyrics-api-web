@@ -2,17 +2,14 @@
 	import { page } from '$app/stores';
 	import github from '$lib/images/github.svg';
 	import { invalidateAll } from '$app/navigation';
+  import { dataset_dev } from 'svelte/internal';
 
 	async function redirect() {
 		window.location.assign("/");
 	}
 
-	export let data;
-	$: item = data.lyrics;
-
-	function invalidate() {
-	invalidateAll();
-	}
+	export let form;
+	$: item = form;
 
 </script>
 
@@ -25,9 +22,16 @@
 	<center>
 		<!--<p class='drac-text'>Nechaj načítať 30s..</p>
 		<iframe src="https://api.michalhicz.eu/webhook/lyrics"></iframe>-->
-		<br><br><button on:click={invalidate} class="drac-btn drac-bg-pink-purple drac-m-sm drac-btn-lg">Reset</button>
+		<form method="post" >
+			<br><br><button class="drac-btn drac-bg-pink-purple drac-m-sm drac-btn-lg">Reset</button>
+		</form>
+
 		<center><div style="margin: 6em; word-wrap: break-word; width: 40em;" class="dv">
-			<h1 style="font-size: 2em;" class="drac-text drac-text-center drac-text-lg drac-text-pink-purple" >{item}</h1>
+			{#if form !== null}
+				<h1 style="font-size: 2em;" class="drac-text drac-text-center drac-text-lg drac-text-pink-purple" >{item}</h1>
+			{:else}
+			<h1 style="font-size: 2em;" class="drac-text drac-text-center drac-text-lg drac-text-pink-purple" >Hitni reset a cakaj!</h1>
+			{/if}
 	  </div></center>
 	</center>
 </div>
@@ -36,6 +40,9 @@
 	@media only screen and (max-width: 900px) {
 		.dv {
 			width: 30em;
+		}
+		h1 {
+			font-size: 1em;
 		}
 	}
 	@media only screen and (max-width: 600px) {
