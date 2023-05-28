@@ -23,10 +23,10 @@
 		<!--<p class='drac-text'>Nechaj načítať 30s..</p>
 		<iframe src="https://api.michalhicz.eu/webhook/lyrics"></iframe>-->
 		<form method="post" >
-			<br><br><input type='text' name="prompt" style = "width: 30em;" placeholder="Tema (anglicky)" class="drac-input drac-input-purple drac-text-white drac-m-xs"/>
-			<br><button class="drac-btn drac-bg-pink-purple drac-m-sm drac-btn-lg">Update</button><br><br><br>
+			<br><br><center><input type='text' name="prompt" style = "width: 30em;" placeholder="Tema (anglicky)" class="drac-input drac-input-purple drac-text-white drac-m-xs"/></center>
+			<br><center><button class="drac-btn drac-bg-pink-purple drac-m-sm drac-btn-lg">Update</button><br><br><br></center>
 		</form>
-		<div style="width: 50em;" class="drac-box drac-mb-sm">
+		<div style="width: 40em;" class="drac-box drac-mb-sm">
 			<hr class="drac-divider drac-border-grey" />
 		</div>
 		<center><div style="margin: 6em; word-wrap: break-word; width: 40em;" class="dv">
