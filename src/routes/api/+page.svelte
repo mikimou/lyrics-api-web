@@ -66,7 +66,8 @@
 	}
 	@media only screen and (max-width: 500px) {
 		.dv {
-			width: 14em;
+			width: 20em;
+			margin: 0em!important;
 		}
 		h1 {
 			font-size: 1.5em!important;
