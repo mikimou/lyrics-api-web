@@ -1,13 +1,5 @@
 <script>
-	import { page } from '$app/stores';
-	import github from '$lib/images/github.svg';
-	import { invalidateAll } from '$app/navigation';
-  import { dataset_dev } from 'svelte/internal';
-
-	async function redirect() {
-		window.location.assign("/");
-	}
-
+	
 	export let form;
 	$: item = form;
 

@@ -28,7 +28,6 @@ export const actions = {
                 headers: new Headers({
                     'key': N8N_API_KEY,
                     'prompt' : prompt,
-                    
                 })
             })
             const lyrics = await fetchedlyrics.json()

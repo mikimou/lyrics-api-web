@@ -19,7 +19,7 @@
 		<!-- <picture>
 			<img src={logo} alt="" />
 		</picture> -->
-		<h1 class="drac-text drac-text-pink-purple">Mikiho Lyrics <br> A.I.</h1>	
+		<h1 class="drac-text drac-text-pink-purple">Mikiho Lyrics <br> A.I.</h1>
 	</div>
 
 	<div style="height: 2em"></div>
