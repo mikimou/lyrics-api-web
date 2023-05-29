@@ -26,10 +26,7 @@
 	
 	<button on:click={redirectt} class="drac-btn drac-bg-pink-purple drac-m-sm drac-btn-lg">Generovať</button>
 
-	<div style="height: 6em"></div>
-	
-	<p class="drac-heading drac-heading-lg drac-text-white">Konec Sveta:</p>	
-	<Counter />
+	<div style="height: 6em"></div>	
 </section>
 
 <style>
