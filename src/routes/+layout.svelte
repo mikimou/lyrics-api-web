@@ -1,8 +1,6 @@
 <script>
-	import { onMount } from 'svelte';
 	import Header from './Header.svelte';
 	import './styles.css';
-	import 'dracula-ui/styles/dracula-ui.css'
 
 	let teraz = new Date(), month, day, year;
 	year = teraz.getFullYear();
@@ -17,7 +15,7 @@
 	</main>
 
 	<footer>
-		<p class="drac-text drac-text-white">{year} mikimou</p>
+		<p class="drac-text drac-text-grey-secondary">{year} Michal Hicz</p>
 	</footer>
 </div>
 

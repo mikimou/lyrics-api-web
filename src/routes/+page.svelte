@@ -1,8 +1,4 @@
 <script>
-	import Counter from './Counter.svelte';
-	import logo from '$lib/images/airisp.png';
-	import { redirect } from '@sveltejs/kit';
-
 	async function redirectt() {
 		window.location.assign("/api");
 	}
@@ -10,15 +6,12 @@
 
 <svelte:head>
 	<title>Mikiho Lyrics A.I.</title>
-	<meta name="description" content="Sieťové vzdelanie" />
+	<meta name="description" content="Lyrics A.I. Generator" />
 </svelte:head>
 
 <section>
 	
 	<div class="welcome">
-		<!-- <picture>
-			<img src={logo} alt="" />
-		</picture> -->
 		<h1 class="drac-text drac-text-pink-purple">Mikiho Lyrics <br> A.I.</h1>
 	</div>
 

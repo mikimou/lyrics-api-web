@@ -1,46 +1,9 @@
 <script>
-	import { page } from '$app/stores';
-	import github from '$lib/images/github.svg';
-	import { redirect } from '@sveltejs/kit';
-	import { error } from '@sveltejs/kit';
-
-	async function redirectt() {
-		window.location.assign("/zlepsenie");
-	}
 
 </script>
 
 <header>
-	<!--
-	<div class="corner">
-		<button on:click={redirectt} style="margin-top: 1em; margin-left:1em; width:13em" class="drac-btn drac-bg-purple-transparent drac-btn-ghost drac-text-purple drac-m-sm drac-btn-xs">
-		návrh na zlepšenie</button>
-	</div>-->
 
-	<!-- <nav>
-		<svg viewBox="0 0 2 3" aria-hidden="true">
-			<path d="M0,0 L1,2 C1.5,3 1.5,3 2,3 L2,0 Z" />
-		</svg>
-		<ul>
-			<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
-				<a class="drac-text" href="/">Domov</a>
-			</li>
-			<li aria-current={$page.url.pathname === '/obsah' ? 'page' : undefined}>
-				<a class="drac-text" href="/">Obsah</a>
-			</li>
-		</ul>
-		<svg viewBox="0 0 2 3" aria-hidden="true">
-			<path d="M0,0 L0,3 C0.5,3 0.5,3 1,2 L2,0 Z" />
-		</svg>
-	</nav> -->
-
-<!--
-	<div class="corner">
-		<a href="https://github.com/sietove-vzdelanie/">
-			<img class="white" src={github} alt="GitHub" />
-		</a>
-	</div>
--->
 </header>
 
 <style>
