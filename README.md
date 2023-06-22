@@ -1,1 +1,1 @@
-# Web stránka sietovevzdelanie.eu
+# Frontend for A.I. generated lyrics
