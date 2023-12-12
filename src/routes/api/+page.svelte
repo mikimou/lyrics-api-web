@@ -20,7 +20,7 @@
 			{#if form !== null}
 				<h1 class="drac-text drac-text-center drac-text-lg drac-text-pink-purple" >{item}</h1>
 			{:else}
-			<h1 class="drac-text drac-text-center drac-text-lg drac-text-pink-purple" >Hitni generuj a cakaj!</h1>
+			<h1 class="drac-text drac-text-center drac-text-lg drac-text-pink-purple" >Generuj</h1>
 			{/if}
 	  </div></center>
 	</center>
